@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>{ Vinicius Rosa }</title>
+
+    <!-- Font Awesome CSS-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/animation.css">
+    <link rel="stylesheet" href="./src/css/index.css">
+</head>
+<body>
+    <header>
+        <div class="header">
+            <nav class="navbar">
+                <ul class="line-ul">
+                    <li class="anchor-link"><a href="#about">Sobre</a></li>
+                    <li class="anchor-link"><a href="#jobs">Trabalhos</a></li>
+                    <li class="anchor-link"><a href="#contact">Contato</a></li>
+                </ul>
+            </nav>
+            <div class="hdr-section">
+                <div class="pre-title">
+                    <p>Hey, eu sou o</p>
+                </div>
+                <h2>Vinicius Rosa</h2>
+                <div class="social">
+                    <span class="social-icon"><a href="https://github.com/Vinicius-Rosa"><i class="fab fa-github"></i></a></span>
+                    <span class="social-icon"><a href="https://www.linkedin.com/in/rosa-vinicius/"><i class="fab fa-linkedin"></i></a></span>
+                    <span class="social-icon"><a href="https://codepen.io/vinicius-rosa"><i class="fab fa-codepen"></i></a></span>
+                    <span class="social-icon"><a href="https://api.whatsapp.com/send?phone=5528999044814&text=Ol%C3%A1%2C%20Vin%C3%ADcius.%20Estou%20entrando%20em%20contato%20devido%20seu%20portif%C3%B3lio."><i class="fab fa-whatsapp"></i></a></span>
+                </div>
+                <hr>
+                <p class="sub-title">Web Designer e Front-End Developer</p>
+            </div>
+            <img src="./src/img/scrolldown.gif" class="scrolldown" alt="Um indicador de rolagem para baixo">
+        </div>
+    </header>
+
+    <main>
+        <section class="about" id="about">
+            <div class="section-about">
+                <h3 class="h3-about">Sobre Mim</h3>
+                <br>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio, obcaecati. Neque, porro perferendis! Vel, fuga autem. Dolorem, maxime quas? Veritatis saepe nam, dignissimos ad similique fugit nostrum velit quia dicta!</p>
+                <br>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio, obcaecati. Neque, porro perferendis! Vel, fuga autem. Dolorem, maxime quas? Veritatis saepe nam, dignissimos ad similique fugit nostrum velit quia dicta!</p>
+            </div>
+            <img src="./src/img/photo1.png" class="photo" alt="Foto de Vinicius Rosa">
+        </section>
+
+        <section class="jobs" id="jobs">
+            <h3 class="h3-jobs">Alguns Trabalhos</h3>
+            <div class="section-jobs">
+                <img src="./src/img/photo1.png" alt="Foto de Vinicius Rosa">
+                <img src="./src/img/photo1.png" alt="Foto de Vinicius Rosa">
+                <img src="./src/img/photo1.png" alt="Foto de Vinicius Rosa">
+                <img src="./src/img/photo1.png" alt="Foto de Vinicius Rosa">
+            </div>
+        </section>
+
+        <section class="contact" id="contact">
+            <div class="container">
+                <div class="left">
+                    <h3 class="h3-contact"> Entre em contato! </h3>
+                    <p class="desc"> Preencha o formulário ao lado para contratar meus serviços.</p>
+                </div>
+                <div class="right">
+                    <!-- <form action="#" method="post"> -->
+                    <form>
+                        <div class="input-group">      
+                            <input id="name" name="name" class="input" type="text" required>
+                            <label for="name" class="label">Nome</label>
+                        </div> 
+                        <div class="input-group">      
+                            <input id="email" name="email" class="input" type="email" required>
+                            <label for="email" class="label">Email</label>
+                        </div> 
+                        <div class="input-group">      
+                            <input id="subject" name="subject" class="input" type="text" required>
+                            <label for="subject" class="label">Assunto</label>
+                        </div> 
+                        <div class="input-group">      
+                            <textarea id="msg" name="msg" class="input" type="text" required></textarea>
+                            <label for="msg" class="label">Mensagem</label>
+                        </div> 
+                        <!-- <input type="submit" class="btn" value="Enviar"> -->
+                    </form>
+                            <a href="#popup1">
+                                <button class="btn">Enviar</button>
+                            </a>
+
+                        <!-- POP UP -->
+                    <div id="popup1" class="overlay">
+                        <div class="popup">
+                            <h2>Me perdoa aí :C</h2>
+                            <a class="close" href="#contact">&times;</a>
+                            <div class="content">
+                                <p>
+                                    Infelizmente, o formulário preenchido não está funcionando no momento. <br>
+                                    Peço perdão novamente por isso. Poderia usar uma das minhas redes sociais pra entrar em contato comigo? <br>
+                                    Vamos lá! Não deixe sua ideia morrer por uma bobeira dessas :D
+                                </p>
+                                <br> <br>
+                                <div class="social">
+                                    <span class="social-icon"><a href="https://github.com/Vinicius-Rosa"><i class="fab fa-github"></i></a></span>
+                                    <span class="social-icon"><a href="https://www.linkedin.com/in/rosa-vinicius/"><i class="fab fa-linkedin"></i></a></span>
+                                    <span class="social-icon"><a href="https://codepen.io/vinicius-rosa"><i class="fab fa-codepen"></i></a></span>
+                                    <span class="social-icon"><a href="https://api.whatsapp.com/send?phone=5528999044814&text=Ol%C3%A1%2C%20Vin%C3%ADcius.%20Estou%20entrando%20em%20contato%20devido%20seu%20portif%C3%B3lio."><i class="fab fa-whatsapp"></i></a></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-left">
+            <p class="mb-0 f_400">Copyright © 2020 Vinicius Rosa</p>
+        </div>
+        <div class="footer-right">
+            <div class="social">
+                <span class="social-icon-white"><a href="https://github.com/Vinicius-Rosa"><i class="fab fa-github"></i></a></span>
+                <span class="social-icon-white"><a href="https://www.linkedin.com/in/rosa-vinicius/"><i class="fab fa-linkedin"></i></a></span>
+                <span class="social-icon-white"><a href="https://codepen.io/vinicius-rosa"><i class="fab fa-codepen"></i></a></span>
+                <span class="social-icon-white"><a href="https://api.whatsapp.com/send?phone=5528999044814&text=Ol%C3%A1%2C%20Vin%C3%ADcius.%20Estou%20entrando%20em%20contato%20devido%20seu%20portif%C3%B3lio."><i class="fab fa-whatsapp"></i></a></span>
+            </div>
+        </div>
+        <div class="footer-left">
+            <p class="mb-0 f_400">Designed by <a href="https://www.instagram.com/vrosa.jpg/" class="link">Vinicius Rosa</a></p>
+        </div>
+    </footer>
+</body>
+</html>
